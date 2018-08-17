@@ -1,0 +1,9 @@
+{application,tcp_interface,
+             [{description,[]},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{tcp_interface_app,[]}},
+              {env,[]},
+              {modules,[acceptor,listen_sup,tcp_interface_app,
+                        tcp_interface_sup,tcp_interface_test]}]}.

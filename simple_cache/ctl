@@ -1,0 +1,11 @@
+function start {
+    local CMD="erl -sname 'cache_demo' -pa ./ebin -I ./include -s server -- start -mnesia dir '\"./db\"' "
+    bash -c "${CMD}"
+    echo "server start"
+}
+case $1 in
+    start)
+        start;;
+    *)
+        echo "nothing to do";;
+esac

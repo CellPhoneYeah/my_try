@@ -1,0 +1,9 @@
+{release,
+    {"tcp_interface", "0.1.0"},
+    {erts, "8.3"},
+    [
+        {kernel, "5.2"},
+        {stdlib, "3.3"},
+        {tcp_interface, "0.1.0"}
+    ]
+}.

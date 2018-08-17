@@ -1,0 +1,9 @@
+{application,resource_discovery,
+             [{description,[]},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{resource_discovery_app,[]}},
+              {env,[]},
+              {modules,[resource_discovery,resource_discovery_app,
+                        resource_discovery_sup]}]}.
